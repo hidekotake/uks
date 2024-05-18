@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ja" prefix="og: http://ogp.me/ns#">
+<head>
+<meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="梅田キッカーズは、東京都足立区立梅島第二小学校・梅島小学校・足立小学校ほか近隣の小学校の子供たちを中心に構成・活動しているサッカーチームです。活動場所は主に梅島第二小学校校庭です。会員は随時募集しております。女子＆幼児も大歓迎です。">
+<meta name="keywords" content="サッカー,梅田キッカーズ,スポーツ,サッカークラブ,足立区,ジュニア,少年サッカー,幼児,男女">
+<title>スタッフ</title>
+<meta property="og:title" content="梅田キッカーズ | スタッフ">
+<meta property="og:type" content="website">
+<meta property="og:description" content="梅田キッカーズは、東京都足立区立梅島第二小学校・梅島小学校・足立小学校ほか近隣の小学校の子供たちを中心に構成・活動しているサッカーチームです。">
+<meta property="og:url" content="https://uks.ninja-web.net/">
+<meta property="og:site_name" content="梅田キッカーズ">
+<meta property="og:image" content="サムネイル画像のURL">
+<!--サムネイル画像のURL-->
+<link rel="icon" href="img/favicon.png">
+<!--favicon--> 
+<!--<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.css">-->
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="parts.css" type="text/css" >
+<link rel="stylesheet" href="reset.css" type="text/css" >
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+
+	<script src="https://www.gstatic.com/charts/loader.js"></script> 
+		  <script>
+    (function() {
+      'use strict';
+
+      function drawTable() {
+        var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1HDls6olv-KqcDaojVZUfgKPAsveLgaArLFQSUZ56TzE/gviz/tq?gid=315229698');
+        query.send(handleQueryResponse);
+      }
+
+      function handleQueryResponse(response) {
+        var table = document.getElementById('target_staff');
+        var data;
+		var options = {
+          width: '100%',
+          height: '100%',
+		  frozenRows:2
+        };
+        var table = new google.visualization.Table(target_staff);
+        data = response.getDataTable();
+        table.draw(data, options);
+      }
+
+      google.charts.load('current', {packages: ['table']});
+      google.charts.setOnLoadCallback(drawTable);
+    })();
+  </script>
+</head>
+
+<body>
+<header id="header">
+  <h1>梅田キッカーズ</h1>
+  <div class="top_mail"><img src="img/mail.png"></div>
+</header>
+<div class="openbtn1"><span></span><span></span><span></span></div>
+<nav id="g-nav">
+  <div id="g-nav-list">
+    <ul>
+      <li><a href="index24.html">ホーム</a></li>
+      <li><a href="/">お問い合わせ</a></li>
+      <li><a href="/">サッカー教室</a></li>
+      <li><a href="/">指導方針</a></li>
+      <li><a href="/">スタッフ</a></li>
+      <li><a href="/">選手</a></li>
+      <li><a href="/">体験お問い合わせ</a></li>
+      <li><a href="/">試合結果</a></li>
+      <li><a href="/">過去の試合結果</a></li>
+      <li><a href="/">保護者の試合結果</a></li>
+    </ul>
+  </div>
+</nav>
+<main> 
+  <div class="wrapper_inside">
+    <section class="mtp05 mb05">
+      <div class="w70">
+        <h2 class="sub_ttl">STAFF<br>
+          <span class="sub_small-ttl">スタッフ</span></h2>
+		  <div id="target_staff"></div>
+		 
+		</div>
+		</section>
+  </div>
+</main>
+<footer id="footer"> <img src="logo.png">
+  <p id="page-top"><a href="#"><span>Page Top</span></a></p>
+  <nav id="footer-nav">
+    <ul>
+      <li><a href="/">ホーム</a></li>
+      <li><a href="/">お問い合わせ</a></li>
+      <li><a href="/">サッカー教室</a></li>
+      <li><a href="/">指導方針</a></li>
+      <li><a href="/">スタッフ</a></li>
+      <li><a href="/">選手</a></li>
+      <li><a href="/">体験お問い合わせ</a></li>
+      <li><a href="/">試合結果</a></li>
+      <li><a href="/">過去の試合結果</a></li>
+      <li><a href="/">保護者の試合結果</a></li>
+    </ul>
+  </nav>
+  <small><span lang="en">&copy;</span>2006 UMEDA KICKERS</small> </footer>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> 
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.js"></script> --> 
+<script src="slide.js"></script>
+	<script>
+	const baseHtml = document.querySelector('.spreadsheets--item.js-base');
+const spreadsheets = document.querySelector('.spreadsheets');
+const apiURL = 'https://script.google.com/macros/s/AKfycbyySitPC505A3GWiVMvmnIgKdyJ8HUQnT_HilwckwZvh4cU-0weKNEcnar1aJVFgPia/exec';
+
+async function loadData() {
+  const response = await fetch(apiURL);
+  const data = await response.json();
+  data.forEach(entry => {
+    const copy = baseHtml.cloneNode(true);
+    copy.classList.remove('js-base');
+    copy.querySelector('.spreadsheets--name').textContent = entry.name;
+    copy.querySelector('.spreadsheets--age').textContent = entry.age;
+    copy.querySelector('.spreadsheets--blood').textContent = entry.blood;
+    copy.querySelector('.spreadsheets--content').innerHTML = entry.content;
+    copy.querySelector('.spreadsheets--img').src = entry.image;
+    spreadsheets.appendChild(copy);
+  });
+}
+
+loadData();
+	</script>
+
+</body>
+</html>
