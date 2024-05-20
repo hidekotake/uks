@@ -22,36 +22,37 @@
 <link rel="stylesheet" href="parts.css" type="text/css" >
 <link rel="stylesheet" href="reset.css" type="text/css" >
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+<script src="https://www.gstatic.com/charts/loader.js"></script> 
 </head>
 
 <body>
 <header id="header">
   <h1>梅田キッカーズ</h1>
-  <div class="top_mail"><img src="mail.png"></div>
+  <div class="top_mail"><img src="img/mail.png"></div>
 </header>
 <div class="openbtn1"><span></span><span></span><span></span></div>
 <nav id="g-nav">
   <div id="g-nav-list">
     <ul>
-      <li><a href="index.html">ホーム</a></li>
-      <li><a href="/">お問い合わせ</a></li>
-      <li><a href="school.html">サッカー教室</a></li>
-      <li><a href="policy.html">指導方針</a></li>
-      <li><a href="https://hidekotake.github.io/uks/staff.html">スタッフ</a></li>
-      <li><a href="/">選手</a></li>
-      <li><a href="/">体験お問い合わせ</a></li>
-      <li><a href="https://hidekotake.github.io/uks/match.html">試合結果</a></li>
-      <li><a href="result.html">過去の試合結果</a></li>
-      <li><a href="guadian_result.html">保護者の試合結果</a></li>
+      <li><a href="index_new.html">ホーム</a></li>
+      <li><a href="/contact.html">お問い合わせ</a></li>
+      <li><a href="/school.html">サッカー教室</a></li>
+      <li><a href="/policy.html">指導方針</a></li>
+      <li><a href="/staff.html">スタッフ</a></li>
+      <li><a href="/player.html">選手</a></li>
+      <li><a href="/experience.html">体験お問い合わせ</a></li>
+      <li><a href="/match.html">試合結果</a></li>
+      <li><a href="/result.html">過去の試合結果</a></li>
+      <li><a href="/guadian_result.html">保護者の試合結果</a></li>
     </ul>
   </div>
 </nav>
 <main> 
   <!--slider-->
   <ul class="slider">
-    <li class="slider-item"><img src="main_visual.png" width="100%"></li>
-    <li class="slider-item"><img src="main_visual.png" width="100%"></li>
-    <li class="slider-item"><img src="main_visual.png" width="100%"></li>
+    <li class="slider-item"><img src="img/main_visual.png" width="100%"></li>
+    <li class="slider-item"><img src="img/main_visual.png" width="100%"></li>
+    <li class="slider-item"><img src="img/main_visual.png" width="100%"></li>
   </ul>
   <!--/slider-->
   <div class="wrapper_inside">
@@ -59,25 +60,11 @@
       <div class="inner">
         <h2 class="sub_ttl">NEWS<br>
           <span class="sub_small-ttl">お知らせ</span></h2>
-        <ul class="news_list">
-          <!--NEWS記事_追加１ブロック-->
-          <li>
-            <time>2020.05.12</time>
-            <p>本日の練習中止</p>
-          </li>
-          <li>
-            <time>2020.05.12</time>
-            <p>低学年交流会U7　準優勝</p>
-          </li>
-          <li>
-            <time>2020.05.12</time>
-            <p>アクセルフットサル大会4年2年チーム <br>
-              リーグ戦：優勝　トーナメント戦：優勝</p>
-          </li>
-          <!--NEWS記事_追加１ブロック_ここまで-->
-        </ul>
+		  <!--news一覧-->
+		  <iframe class="center sp100" src="news.html" width="700" height="400" scrolling="yes"></iframe>
+		  <!--news一覧ここまで-->
       </div>
-      <div class="red"><span class="mid">※お願い</span><br>
+      <div class="red mtp05"><span class="mid">※お願い</span><br>
         ○練習後の忘れ物が絶えません。<br class="pc_erase">
         記名のない忘れ物は体育倉庫に保管します。<br class="pc_erase">
         特に水筒と上着です。記名の徹底をお願いします！ <br>
@@ -93,40 +80,40 @@
         活動場所は主に梅島第二小学校校庭です。会員は随時
         募集しております。女子＆幼児も大歓迎です。</p>
       <!--ボタン-->
-      <div class="btn_wrapper"><a href="" class="btn btn--orange">詳細はこちら　&gt;</a> </div>
+      <div class="btn_wrapper"><a href="/policy.html" class="btn btn--orange">詳細はこちら　&gt;</a> </div>
       <!--ボタン--> 
     </section>
     <section class="schedule">
       <h2 class="sub_ttl">SCHEDULE<br>
         <span class="sub_small-ttl">活動予定</span></h2>
       <div class="schedule_inseide w98">
-		  <iframe class="w98" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Asia%2FTokyo&bgcolor=%23ffffff&showTitle=0&showNav=0&showPrint=0&showTz=0&showTabs=0&showCalendars=0&src=aGlkZWtvZmxvd2Vyc0BnbWFpbC5jb20&src=bWlkb3JpbXVzaGlmbG93ZXJAZ21haWwuY29t&src=dGFrZW1hdHN1MjAxNDIyOEBnbWFpbC5jb20&src=OWY3MDBjZTY5NGIyM2FmYzg3NGUwMzQyYmZlMTIzZjA0YmM4OTI1MzY5M2RhYmQ3YzMxNTRjNzNkOGI3NDY1M0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=cTVhYWhxMnJ0OW84cWk3MjNxYmxpY2wxaTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZmFtaWx5MTEwNjI4NTA1NDE0Mjk1MDYxNzZAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=amEuamFwYW5lc2UjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB&color=%23EF6C00&color=%237CB342&color=%23B39DDB&color=%23E67C73&color=%233F51B5&color=%230B8043&color=%2333B679" style="border-width:0" height="600" frameborder="0" scrolling="no"></iframe>
-		</div>
+        <iframe class="w98" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Asia%2FTokyo&bgcolor=%23ffffff&showTitle=0&showNav=0&showPrint=0&showTz=0&showTabs=0&showCalendars=0&src=aGlkZWtvZmxvd2Vyc0BnbWFpbC5jb20&src=bWlkb3JpbXVzaGlmbG93ZXJAZ21haWwuY29t&src=dGFrZW1hdHN1MjAxNDIyOEBnbWFpbC5jb20&src=OWY3MDBjZTY5NGIyM2FmYzg3NGUwMzQyYmZlMTIzZjA0YmM4OTI1MzY5M2RhYmQ3YzMxNTRjNzNkOGI3NDY1M0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=cTVhYWhxMnJ0OW84cWk3MjNxYmxpY2wxaTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZmFtaWx5MTEwNjI4NTA1NDE0Mjk1MDYxNzZAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=amEuamFwYW5lc2UjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB&color=%23EF6C00&color=%237CB342&color=%23B39DDB&color=%23E67C73&color=%233F51B5&color=%230B8043&color=%2333B679" style="border-width:0" height="600" frameborder="0" scrolling="no"></iframe>
+      </div>
     </section>
     <section class="w70">
       <h2 class="sub_ttl">CONTACT<br>
         <span class="sub_small-ttl">お問い合わせ</span></h2>
-      <p>体験希望の方は、メールにてお申し込みください。</p>
+      <p class="center">体験希望の方は、メールにてお申し込みください。</p>
       <!--ボタン-->
-      <div class="btn_wrapper"><a href="" class="btn btn--orange">詳細はこちら　&gt;</a> </div>
+      <div class="btn_wrapper"><a href="/contact.html" class="btn btn--orange">詳細はこちら　&gt;</a> </div>
       <!--ボタン--> 
     </section>
   </div>
 </main>
-<footer id="footer"> <img src="logo.png">
+<footer id="footer"> <img src="img/logo.png">
   <p id="page-top"><a href="#"><span>Page Top</span></a></p>
   <nav id="footer-nav">
     <ul>
-      <li><a href="index.html">ホーム</a></li>
-      <li><a href="/">お問い合わせ</a></li>
-      <li><a href="school.html">サッカー教室</a></li>
-      <li><a href="policy.html">指導方針</a></li>
-      <li><a href="/">スタッフ</a></li>
-      <li><a href="/">選手</a></li>
-      <li><a href="/">体験お問い合わせ</a></li>
-      <li><a href="/">試合結果</a></li>
-      <li><a href="result.html">過去の試合結果</a></li>
-      <li><a href="guadian_result.html">保護者の試合結果</a></li>
+      <li><a href="index_new.html">ホーム</a></li>
+      <li><a href="/contact.html">お問い合わせ</a></li>
+      <li><a href="/school.html">サッカー教室</a></li>
+      <li><a href="/policy.html">指導方針</a></li>
+      <li><a href="/staff.html">スタッフ</a></li>
+      <li><a href="/player.html">選手</a></li>
+      <li><a href="/experience.html">体験お問い合わせ</a></li>
+      <li><a href="/match.html">試合結果</a></li>
+      <li><a href="/result.html">過去の試合結果</a></li>
+      <li><a href="/guadian_result.html">保護者の試合結果</a></li>
     </ul>
   </nav>
   <small><span lang="en">&copy;</span>2006 UMEDA KICKERS</small> </footer>
@@ -134,5 +121,7 @@
 <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> 
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.4/vegas.min.js"></script> --> 
 <script src="slide.js"></script>
+	
+	
 </body>
 </html>
